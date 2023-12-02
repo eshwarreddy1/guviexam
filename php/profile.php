@@ -7,7 +7,7 @@ if ($conn->connect_error) {
 
 if ($_SERVER["REQUEST_METHOD"] == "GET") {
     $email = $_GET["email"];
-    $sql = "SELECT * FROM guvi WHERE email = ?";
+    $sql = "SELECT * FROM user WHERE email = ?";
     $stmt = $conn->prepare($sql);
     $stmt->bind_param("s", $email);
     $stmt->execute();
