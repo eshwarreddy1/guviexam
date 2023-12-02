@@ -1,4 +1,4 @@
-/* Reset some default styles */
+
 body,
 h1,
 
@@ -11,13 +11,12 @@ input {
     border: 0;
 }
 
-/* Apply a background color to the body */
 body {
     background-color: skyblue;
     background-repeat: no-repeat;
 }
 
-/* Center the container horizontally */
+
 .container {
     width: 500px;
     height: 550px;

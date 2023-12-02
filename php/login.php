@@ -1,6 +1,6 @@
 <?php
 
-$conn = new mysqli('localhost', 'root', '', 'guvi_techinal_taxk_exam');
+$conn = new mysqli('localhost', 'root', '', 'guviexam');
 
 if ($conn->connect_error) {
     die("Connection failed: " . $conn->connect_error);

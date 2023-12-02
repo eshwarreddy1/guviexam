@@ -6,7 +6,7 @@
 // $dbname = "your_mysql_database";
 
 // Create connection
-$conn = new mysqli('localhost', 'root', '', 'guvi_techinal_taxk_exam');
+$conn = new mysqli('localhost', 'root', '', 'guviexam');
 
 // Check connection
 if ($conn->connect_error) {
@@ -34,7 +34,7 @@ if ($_SERVER["REQUEST_METHOD"] == "POST") {
         echo "User with the same email or phone number already exists!";
     } else {
         // Insert new user data
-        $insertQuery = "INSERT INTO user (firstName, lastName, email, phoneNumber, password,confirmPassword) VALUES (?, ?, ?, ?, ? ,?)";
+        $insertQuery = "INSERT INTO user (firstName, lastName, email, phoneNumber, password,confirmPassword) VALUES (?, ?, ?, ?, ?,?)";
         $insertStmt = $conn->prepare($insertQuery);
         $insertStmt->bind_param("ssssss", $firstName, $lastName, $email, $phoneNumber, $password,$confirmPassword);
 
