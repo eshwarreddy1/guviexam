@@ -1,1 +1,1 @@
-This video provides an explanation for my project, and you can access it via the following URL: https://clipchamp.com/watch/Zo8PD56WPtd. In this project, I have successfully hosted my database on localhost by php.
+This video provides an explanation for my project, and you can access it via the following URL: https://clipchamp.com/watch/Zo8PD56WPtd. In this project, I have successfully hosted my database on localhost using phpadmin.
