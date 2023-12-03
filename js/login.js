@@ -11,7 +11,7 @@ function login() {
     }
 
     // Send data to the server using fetch
-    fetch('/Guvi_Assignment_muni/php/login.php', {
+    fetch('/guviexam/php/login.php', {
         method: 'POST',
         headers: {
             'Content-Type': 'application/x-www-form-urlencoded',
