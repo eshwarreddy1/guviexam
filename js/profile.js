@@ -8,7 +8,7 @@ $(document).ready(function () {
     // Fetch user details based on email
     $.ajax({
         type: 'GET',
-        url: '/Guvi_Assignment_muni/php/profile.php',
+        url: '/guviexam/php/profile.php',
         data: { email: userEmail },
         success: function (response) {
             var user = JSON.parse(response);
