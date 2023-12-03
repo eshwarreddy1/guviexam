@@ -16,7 +16,7 @@ function register() {
 
     // Send data to the server using AJAX
     var xhr = new XMLHttpRequest();
-    xhr.open('POST', '/guviexam/php/register.php', true);
+    xhr.open('POST', '/Guviexam/php/register.php', true);
     xhr.setRequestHeader('Content-Type', 'application/x-www-form-urlencoded');
 
     xhr.onreadystatechange = function () {
